@@ -1,0 +1,9 @@
+<%= form_tag("/decrypt", method: "post") do %>
+  <%= label_tag(:pk_label, "Public Key:") %><br>
+  <%= text_area_tag(:public_key, params[:public_key], :rows => 10, :cols => 120 ) %><br>
+  <%= label_tag(:enc_label, "Encrypted Content::") %><br>
+  <%= text_area_tag(:encrypted_str, params[:encrypted_str], :rows => 10, :cols => 120 ) %><br>
+  <%= submit_tag("Decrypt") %><br>
+  <%= text_area_tag(:decrypted_str, params[:decrypted_str], :rows => 10, :cols => 150 ) %><br>
+
+<%end%>
