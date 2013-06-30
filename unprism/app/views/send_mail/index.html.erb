@@ -1,0 +1,20 @@
+
+
+<%= form_tag("/send_mail", method: "post") do %>
+  <%= label_tag(:pk_label, "Private Key:") %><br>
+  <%= text_area_tag(:private_key, params[:private_key], :rows => 10, :cols => 120 ) %>
+  <%= submit_tag("Generate keys") %><br>
+<% if params[:public_key] %>
+  <%=   label_tag(:pub_key_label, "Public Key:") %><br>
+  <%=   text_area_tag(:public_key, params[:public_key], :rows => 10, :cols => 120, :disabled => true) %><br>
+<%   end %>
+<%= label_tag(:host_label, "Mail Server Host:")%> <%= text_field_tag(:hostname, params[:hostname], :size =>50)%>
+<%= label_tag(:port_label, "Port:")%> <%= text_field_tag(:port, params[:port], :size =>10)%><br>
+<%= label_tag(:user_label, "Username:")%> <%= text_field_tag(:username, params[:username], :size =>60)%><br>
+<%= label_tag(:password_label, "Password:")%> <%= text_field_tag(:password, params[:password], :type => "password",:size =>60)%><br>
+<%= label_tag(:from_label, "From:")%> <%= text_field_tag(:from, params[:from], :size =>60)%><br>
+<%= label_tag(:to_label, "To:")%> <%= text_field_tag(:to, params[:to], :size =>60)%><br>
+<%= label_tag(:subject_label, "Subject:")%> <%= text_field_tag(:subject, params[:subject], :size =>120)%><br>
+<%= text_area_tag(:body, params[:body], :rows =>50, :cols => 140)%><br>
+<%= submit_tag("Send Email") %><br>
+<% end %>
