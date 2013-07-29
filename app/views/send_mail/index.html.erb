@@ -1,14 +1,19 @@
-
-<%= form_tag("/send_mail", method: "post") do %>
-  <%= label_tag(:pk_label, "Private Key:") %><br>
-  <%= text_area_tag(:private_key, params[:private_key], :rows => 10, :cols => 120 ) %>
-  <%= submit_tag("Generate keys") %><br>
-<% if params[:public_key] %>
-  <%=   label_tag(:pub_key_label, "Public Key:") %><br>
-  <%=   text_area_tag(:public_key, params[:public_key], :rows => 10, :cols => 120, :disabled => false) %><br>
-<%   end %>
+<%= form_tag( method: "post") do %>
+  <%= label_tag(:cipher_label, "Secret:") %><br>
+  <%= text_area_tag(:secret_key, params[:secret_key], :rows => 2, :cols => 60 ) %>
+  <%= submit_tag("Generate secret") %><br>
 <%= label_tag(:host_label, "Mail Server Host:")%> <%= text_field_tag(:hostname, params[:hostname], :size =>50)%>
 <%= label_tag(:port_label, "Port:")%> <%= text_field_tag(:port, params[:port], :size =>10)%><br>
+<%= radio_button_tag(:mail_select, "lzhao", params["mail_select"] == "lzhao", :onclick => "this.parentNode.submit();") %>
+<%= label_tag(:mail_gmail, "Lzhao") %>
+<%= radio_button_tag(:mail_select, "gmail", params["mail_select"] == "gmail", :onclick => "this.parentNode.submit();") %>
+<%= label_tag(:mail_gmail, "Gmail") %>
+<%= radio_button_tag(:mail_select, "yahoo", params["mail_select"] == "yahoo", :onclick => "this.parentNode.submit();") %>
+<%= label_tag(:mail_yahoo, "Yahoo") %>
+<%= radio_button_tag(:mail_select, "outlook", params["mail_select"] == "outlook", :onclick => "this.parentNode.submit();") %>
+<%= label_tag(:mail_outlook, "Outlook") %>
+<%= radio_button_tag(:mail_select, "others", params["mail_select"] == "others", :onclick => "this.parentNode.submit();") %>
+<%= label_tag(:mail_others, "Others") %><br>
 <%= label_tag(:user_label, "Username:")%> <%= text_field_tag(:username, params[:username], :size =>60)%><br>
 <%= label_tag(:password_label, "Password:")%> <%= text_field_tag(:password, params[:password], :type => "password",:size =>60)%><br>
 <%= label_tag(:from_label, "From:")%> <%= text_field_tag(:from, params[:from], :size =>60)%><br>

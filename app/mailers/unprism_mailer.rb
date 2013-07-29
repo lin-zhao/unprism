@@ -12,7 +12,8 @@ class UnprismMailer < ActionMailer::Base
    :openssl_verify_mode => 'none'
    })
 
-   mail(to: params["to"], from: params["from"], subject: "You have a secret message.", body: msg)
+   time = Time.new
+   mail(to: params["to"], from: params["from"], subject: "You have a secret message. " + time.month.to_s + "/" + time.day.to_s + "/" + time.year.to_s, body: msg)
 
   end
 end

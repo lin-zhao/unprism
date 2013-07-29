@@ -4550,3 +4550,265 @@ Served asset /decrypt_controller.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-30 01:00:03 -0700
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 67.180.85.190 at 2013-06-30 17:40:01 +0000
+Served asset /rails.png - 304 Not Modified (4ms)
+
+
+Started GET "/send_mail" for 67.180.85.190 at 2013-06-30 17:40:07 +0000
+Processing by SendMailController#index as HTML
+  Rendered send_mail/index.html.erb within layouts/application (4.8ms)
+Compiled application.css  (0ms)  (pid 2352)
+Compiled application.js  (0ms)  (pid 2352)
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 67.180.85.190 at 2013-06-30 17:40:08 +0000
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 67.180.85.190 at 2013-06-30 17:40:08 +0000
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/send_mail" for 67.180.85.190 at 2013-06-30 17:40:10 +0000
+Processing by SendMailController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hLR/Dd+RxMLD2J2ULVw/cepeXFNM2pIeXR9nKT/evDo=", "private_key"=>"", "commit"=>"Generate keys", "hostname"=>"", "port"=>"", "username"=>"", "password"=>"[FILTERED]", "from"=>"", "to"=>"", "subject"=>"", "body"=>""}
+  Rendered send_mail/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 127ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 67.180.85.190 at 2013-06-30 17:40:10 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 67.180.85.190 at 2013-06-30 17:40:10 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/send_mail" for 67.180.85.190 at 2013-06-30 17:40:36 +0000
+Processing by SendMailController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hLR/Dd+RxMLD2J2ULVw/cepeXFNM2pIeXR9nKT/evDo=", "private_key"=>"-----BEGIN RSA PRIVATE KEY-----\r\nMIIEpAIBAAKCAQEAvoTzbNi3nMpQNVnZvclBx/ieqA2eUyasx5nJJyqKJ9EooQDI\r\nfRD1n5VwnHo6KyLuGUXb02gr2OVR1LKU7GlzWw+RUma4fSYN8tuTQNdVvbnaaX/P\r\nc1v324zzS3SYhpNdE4iCloS7JVeHGGGttmg1AoxnYizG8R9UoEXRqZrDeB64i+ro\r\nYmL4FRGT1+tN+ZW23WnjYxOmUYPuxSCrgA1ZCHE2vMZua4GX5w2ODlB4yNDPre6K\r\nicB+mnAkoDlxGubYIO02HNgRBKcWx9nLzi0Ew6ZDgj8KPeUnsCJGsf2LLKR+ziDi\r\nSG8XdMARbfnb5pI370zpzOh7tSXmoZhNY1vPiwIDAQABAoIBAQC93AQx7m5cQ4lX\r\nAWlqJkv1mh+R3bBvsNTyPKEm9M+lClzwxbUGXYZJOEV2yp95KWAZs3Jz5RX9GdpI\r\nmoaqahPZJVRux4sGvIud/49pSK5bWgD8ra/wiDAijP5PravqQKS6uIlasn9FoUox\r\n0/WnF4XsOjs0rOa8l7pf1fQwjthItKvQX3WGARyPDp3hin7/SMpZmH4wIGIirDqB\r\nPbXjhG8Y1r62ymW1QTm4Iqc8/9Q/B3O9qK1aR1y5JzK0/aRJolgXQmh68IlUqGb/\r\n0/vkYDlCPjmnj/ENZ1BA49CjsOUrEvQhduNtBzSZ4/EjZocMBVJUPEPGNvvygosU\r\niHSijt+RAoGBAOoA4KRmVtgHSBQT653nzCEeNZpAGj6OmJGYzaNC92lvUraHKyQi\r\nEeDCa9q7Y9hy8EmxvYYLxrnzWaxVmDhlDtKiCKQWgZ44u0l0uAip9Lp0ONWo3L1O\r\nfJicu0+DMCGh9wYI1StW6O+BUcQ9t1GvBkIK/vKk8G7LGGMDbfjGcgSPAoGBANBt\r\nqQ5FKgnmD0Bn6AKg5CGMPHKO7CHIFY8/D1tdPgBao4AR8rL0L4V/cX9lbeU10obb\r\n2gy0RPwNevEhHjnJhMJD8AZluaQYP3ODnZS64y+LVNQ7+7/JdLAgYFnQXoLG/Jdp\r\n7glaXBMr/bC+zreE/fYvAVF7Osus9xg8SmO/QptFAoGBAK916vu6tQGVLCnJ6hFj\r\n/r8SfNTlnggsOiBqOD9j9kp7q8Srw+B7H3atsdu4SRzCyoQnn1nEuMUzwJilMdeP\r\nhzbPQrVvHs/58A0bVOdCMPwiK3+h96qHEIwKcbUkRFHjtWsz8ktmBpGYISyJrky0\r\ndXfN8O8WWCZraSTNLIeunU3nAoGAfBvQPp8QmTRUgJVeobIMJa3LkKtqD/OEYve5\r\nvT2YXb2a/fex/L1KTsPEYYeUGJgj9AmVnVr6eNvOCScfSGmmk8bAdg68q+mEXtRQ\r\nUO+3t+fPa1EMZvcedIHS3aglntm+Lqr1Ary7du8K8OOtU7ntP1pd/pbSO9WSjOvZ\r\nn+uTTcECgYA2o95aBlvcUiWy6aOjxOO8cSG5J8Zf4LDR5tHnhL8wAshaO8CfpF/s\r\nwhpqBj6UFjKxUcu9Mh1gDZK7MwbSZRA1vmmzhn09lfQShnNY4hXrhSSZoegKjEEI\r\nloZCGKbjb0AtEa25ctuMrgL9WtZGAwzDyvR0ybbTSnd1vOpgbxAkZw==\r\n-----END RSA PRIVATE KEY-----\r\n", "public_key"=>"-----BEGIN PUBLIC KEY-----\r\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvoTzbNi3nMpQNVnZvclB\r\nx/ieqA2eUyasx5nJJyqKJ9EooQDIfRD1n5VwnHo6KyLuGUXb02gr2OVR1LKU7Glz\r\nWw+RUma4fSYN8tuTQNdVvbnaaX/Pc1v324zzS3SYhpNdE4iCloS7JVeHGGGttmg1\r\nAoxnYizG8R9UoEXRqZrDeB64i+roYmL4FRGT1+tN+ZW23WnjYxOmUYPuxSCrgA1Z\r\nCHE2vMZua4GX5w2ODlB4yNDPre6KicB+mnAkoDlxGubYIO02HNgRBKcWx9nLzi0E\r\nw6ZDgj8KPeUnsCJGsf2LLKR+ziDiSG8XdMARbfnb5pI370zpzOh7tSXmoZhNY1vP\r\niwIDAQAB\r\n-----END PUBLIC KEY-----\r\n", "hostname"=>"smtp.lzhao.com", "port"=>"587", "username"=>"lin@lzhao.com", "password"=>"[FILTERED]", "from"=>"lin@lzhao.com", "to"=>"lin@groupon.com", "subject"=>"lFHGHIGOIjfj", "body"=>"lkfL;fh;fs da ji j", "commit"=>"Send Email"}
+
+Sent mail to lin@groupon.com (427ms)
+Date: Sun, 30 Jun 2013 17:40:37 +0000
+From: lin@lzhao.com
+To: lin@groupon.com
+Message-ID: <51d06d9527ac9_93012ee2489535@ip-172-31-23-179.mail>
+Subject: You have a secret message.
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+LoHW449hGCLWlZdHFDm5WuZBqN4V4iPpLksRbcidcM9tYTQ+RhWa5/7vuL2/
+UuYpQjejXmlPgP0XA/Th6DhIGG/ND5xEStHAp5hAalaeU1HQZiO4DEhyqgep
+K48MjCgiJSuPvi5SeFOzAMkm55bGAFnVWCh+BBl6vx8NK69WkdH+dYy+0SWL
+nrJAdhCRktmV/1PU9PHW+j8FhwtyXBdnVVg6kPlTeffa3M6Fn2naWXgwkU1D
+6Fqg7XMmcB4j83uaPzH98jlzl31PdYCfrFD6fGMLSYOP0HQJRJI2fRFK9pRf
+riASjO5XA6ncBNrKx7V8rMk/di9dlDd2aM44NV6k/w==
+
+  Rendered send_mail/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 961ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 67.180.85.190 at 2013-06-30 17:40:37 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 67.180.85.190 at 2013-06-30 17:40:37 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/decrypt" for 67.180.85.190 at 2013-06-30 17:40:58 +0000
+Processing by DecryptController#decrypt as HTML
+  Rendered decrypt/decrypt.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 67.180.85.190 at 2013-06-30 17:40:58 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 67.180.85.190 at 2013-06-30 17:40:58 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/decrypt" for 67.180.85.190 at 2013-06-30 17:41:09 +0000
+Processing by DecryptController#decrypt as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hLR/Dd+RxMLD2J2ULVw/cepeXFNM2pIeXR9nKT/evDo=", "public_key"=>"-----BEGIN PUBLIC KEY-----\r\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvoTzbNi3nMpQNVnZvclB\r\nx/ieqA2eUyasx5nJJyqKJ9EooQDIfRD1n5VwnHo6KyLuGUXb02gr2OVR1LKU7Glz\r\nWw+RUma4fSYN8tuTQNdVvbnaaX/Pc1v324zzS3SYhpNdE4iCloS7JVeHGGGttmg1\r\nAoxnYizG8R9UoEXRqZrDeB64i+roYmL4FRGT1+tN+ZW23WnjYxOmUYPuxSCrgA1Z\r\nCHE2vMZua4GX5w2ODlB4yNDPre6KicB+mnAkoDlxGubYIO02HNgRBKcWx9nLzi0E\r\nw6ZDgj8KPeUnsCJGsf2LLKR+ziDiSG8XdMARbfnb5pI370zpzOh7tSXmoZhNY1vP\r\niwIDAQAB\r\n-----END PUBLIC KEY-----\r\n", "encrypted_str"=>"LoHW449hGCLWlZdHFDm5WuZBqN4V4iPpLksRbcidcM9tYTQ+RhWa5/7vuL2/\r\nUuYpQjejXmlPgP0XA/Th6DhIGG/ND5xEStHAp5hAalaeU1HQZiO4DEhyqgep\r\nK48MjCgiJSuPvi5SeFOzAMkm55bGAFnVWCh+BBl6vx8NK69WkdH+dYy+0SWL\r\nnrJAdhCRktmV/1PU9PHW+j8FhwtyXBdnVVg6kPlTeffa3M6Fn2naWXgwkU1D\r\n6Fqg7XMmcB4j83uaPzH98jlzl31PdYCfrFD6fGMLSYOP0HQJRJI2fRFK9pRf\r\nriASjO5XA6ncBNrKx7V8rMk/di9dlDd2aM44NV6k/w==", "commit"=>"Decrypt", "decrypted_str"=>""}
+  Rendered decrypt/decrypt.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 67.180.85.190 at 2013-06-30 17:41:09 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 67.180.85.190 at 2013-06-30 17:41:09 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/send_mail" for 67.180.85.190 at 2013-06-30 18:25:22 +0000
+Processing by SendMailController#index as HTML
+  Rendered send_mail/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 25ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 67.180.85.190 at 2013-06-30 18:25:23 +0000
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 67.180.85.190 at 2013-06-30 18:25:23 +0000
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 67.180.85.190 at 2013-06-30 19:18:28 +0000
+Processing by SendMailController#index as HTML
+  Rendered send_mail/index.html.erb within layouts/application (24.1ms)
+Completed 200 OK in 65ms (Views: 64.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 67.180.85.190 at 2013-06-30 19:18:29 +0000
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 67.180.85.190 at 2013-06-30 19:18:29 +0000
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/decrypt" for 67.180.85.190 at 2013-06-30 19:18:33 +0000
+Processing by DecryptController#decrypt as HTML
+  Rendered decrypt/decrypt.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 67.180.85.190 at 2013-06-30 19:18:33 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 67.180.85.190 at 2013-06-30 19:18:33 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 67.180.85.190 at 2013-06-30 23:08:30 +0000
+Processing by SendMailController#index as HTML
+  Rendered send_mail/index.html.erb within layouts/application (26.2ms)
+Compiled decrypt_controller.css  (19ms)  (pid 25037)
+Compiled send_mail.css  (1ms)  (pid 25037)
+Compiled application.css  (26ms)  (pid 25037)
+Compiled jquery.js  (2ms)  (pid 25037)
+Compiled jquery_ujs.js  (0ms)  (pid 25037)
+Compiled decrypt_controller.js  (119ms)  (pid 25037)
+Compiled send_mail.js  (1ms)  (pid 25037)
+Compiled application.js  (138ms)  (pid 25037)
+Completed 200 OK in 237ms (Views: 236.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/decrypt_controller.css?body=1" for 67.180.85.190 at 2013-06-30 23:08:30 +0000
+Served asset /decrypt_controller.css - 200 OK (5ms)
+
+
+Started GET "/assets/send_mail.css?body=1" for 67.180.85.190 at 2013-06-30 23:08:30 +0000
+Served asset /send_mail.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 67.180.85.190 at 2013-06-30 23:08:30 +0000
+Served asset /jquery.js - 200 OK (36ms)
+
+
+Started GET "/assets/send_mail.js?body=1" for 67.180.85.190 at 2013-06-30 23:08:30 +0000
+Served asset /send_mail.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 67.180.85.190 at 2013-06-30 23:08:30 +0000
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/decrypt_controller.js?body=1" for 67.180.85.190 at 2013-06-30 23:08:30 +0000
+Served asset /decrypt_controller.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 67.180.85.190 at 2013-06-30 23:08:30 +0000
+Served asset /application.css - 200 OK (8ms)
+
+
+Started GET "/assets/application.js?body=1" for 67.180.85.190 at 2013-06-30 23:08:31 +0000
+Served asset /application.js - 200 OK (8ms)
+
+
+Started GET "/send_mail" for 67.180.85.190 at 2013-06-30 23:08:35 +0000
+Processing by SendMailController#index as HTML
+  Rendered send_mail/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 67.180.85.190 at 2013-06-30 23:08:35 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/send_mail.css?body=1" for 67.180.85.190 at 2013-06-30 23:08:35 +0000
+Served asset /send_mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decrypt_controller.css?body=1" for 67.180.85.190 at 2013-06-30 23:08:35 +0000
+Served asset /decrypt_controller.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 67.180.85.190 at 2013-06-30 23:08:35 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 67.180.85.190 at 2013-06-30 23:08:35 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decrypt_controller.js?body=1" for 67.180.85.190 at 2013-06-30 23:08:35 +0000
+Served asset /decrypt_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 67.180.85.190 at 2013-06-30 23:08:35 +0000
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/send_mail.js?body=1" for 67.180.85.190 at 2013-06-30 23:08:35 +0000
+Served asset /send_mail.js - 304 Not Modified (0ms)
+
+
+Started GET "/decrypt" for 67.180.85.190 at 2013-06-30 23:08:42 +0000
+Processing by DecryptController#decrypt as HTML
+  Rendered decrypt/decrypt.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 34ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 67.180.85.190 at 2013-06-30 23:08:42 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decrypt_controller.css?body=1" for 67.180.85.190 at 2013-06-30 23:08:42 +0000
+Served asset /decrypt_controller.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/send_mail.css?body=1" for 67.180.85.190 at 2013-06-30 23:08:42 +0000
+Served asset /send_mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 67.180.85.190 at 2013-06-30 23:08:42 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 67.180.85.190 at 2013-06-30 23:08:42 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decrypt_controller.js?body=1" for 67.180.85.190 at 2013-06-30 23:08:42 +0000
+Served asset /decrypt_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/send_mail.js?body=1" for 67.180.85.190 at 2013-06-30 23:08:42 +0000
+Served asset /send_mail.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 67.180.85.190 at 2013-06-30 23:08:42 +0000
+Served asset /application.js - 304 Not Modified (1ms)
